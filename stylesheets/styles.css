@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: #0a2c49;
+}
+ul li {
+  list-style: none;
+  text-decoration: dashed;
+}
+h2 {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header-bg {
+  background-color: #0c3457;
+}
+.header-bg img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+.menu {
+  color: white;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.menu h1 {
+  font-size: 1.5em;
+}
+.nav-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-nav a {
+  color: white;
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
+}
+a:hover {
+  color: #daa520;
+}
+
+.home {
+  max-width: 960px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 0 10px;
+}
+.home-description h1 {
+  font-size: 2.3em;
+}
+.home-description p {
+  line-height: 1.4em;
+  font-size: 1.2em;
+  color: #7c7c7c;
+}
+.home-description {
+  flex: 1;
+}
+
+.home img {
+  margin-left: 100px;
+  max-width: 350px;
+  height: 300px;
+}
+.tournaments h1 {
+  font-size: 2.2em;
+  text-align: center;
+  margin: 40px;
+  color: #0a2c49;
+}
+.tournaments-info {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.tournaments-description {
+  flex: 1;
+  margin: 0 20px 0 10px;
+}
+.tournaments-info h2 {
+  margin: 10px 0px;
+  font-size: 1.7em;
+}
+.tournaments-info p {
+  color: #7c7c7c;
+  line-height: 1.4em;
+  font-size: 1.1em;
+}
+.tournaments-info img {
+  align-items: center;
+  max-width: 300px;
+  height: 200;
+}
+.tournaments-local {
+  max-width: 960px;
+  margin: 40px auto;
+}
+.trainings-description{
+  flex: 1;
+  padding: 0 0 0 10px;
+}
+.local-info {
+  padding: 0 0 0 10px;
+}
+iframe {
+  width: 300px;
+  height: 300px;
+}
+
+.contact {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.contact h1 {
+  text-align: center;
+}
+
+i {
+  color: #25d366;
+}
+
+#support h1 {
+  text-align: center;
+}
+.support {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 0 10px;
+}
+.support-desc {
+  flex: 1;
+}
+.support-desc img {
+  max-width: 200px;
+  height: 200px;
+}
+.project-creators {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.footer {
+  color: white;
+  display: flex;
+  background: rgb(12, 52, 87);
+  height: 100px;
+  align-items: center;
+}
+
+.footer p {
+  flex: 1;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+@media (max-width: 400px) {
+  .home {
+    margin: 50px auto;
+  }
+  .home-description h1 {
+    color: #0a2c49;
+    font-size: 1.8em;
+  }
+  .home-description p {
+    font-size: 1.1em;
+  }
+  .home img {
+    margin-left: 0px;
+    max-width: 250px;
+    height: 200px;
+    margin: 0 auto;
+  }
+}
